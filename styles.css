@@ -35,12 +35,16 @@ html {
 /* Custom Styles */
 
 main {
-    display: flex;
     flex-direction: column;
     min-height: 100vh;
     justify-content: center;
     padding: 0 30px;
     text-align: center;
+}
+
+main > .avatar {
+    margin: 1.5rem 0;
+    border-radius: 50%;
 }
 
 main > .intro {
